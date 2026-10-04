@@ -33,13 +33,12 @@ x-category: "Documents & Productivity"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Documents And Productivity
   - Public APIs
+  - Project Management
 apis:
   - name: Zube
     description: "Full stack project management"
     humanURL: https://zube.io/docs/api
-    baseURL: https://zube.io/docs/api
     tags:
       - Documents And Productivity
     properties:
@@ -55,3 +54,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Documents And Productivity
