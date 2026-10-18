@@ -39,7 +39,8 @@ apis:
   - name: Zube
     description: "Full stack project management"
     humanURL: https://zube.io/docs/api
-    tags:
+    tags: []
+    tags_raw:
       - Documents And Productivity
     properties:
       - type: Documentation
