@@ -16,9 +16,26 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Slack app
+- partner_name: GitHub Marketplace (apps)
+  partner: github
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/zube
+  listing_count: 1
+  apps:
+  - Zube
+  publisher_name: zube
+  detected_by: sweep-devtools.py
+  detected: '2026-10-19'
 generated: '2026-10-18'
 method: searched
 source:
 - slack/integrations/slack-integration-edges.yml
 checked:
+- https://github.com/marketplace?type=apps
 - slack/integrations/slack-integration-edges.yml
+marketplace_apps: []
